@@ -1,0 +1,22 @@
+.Dark
+{
+    color: white;
+    padding:100px;
+    background-color:black;
+}
+.Light
+{
+    color: black;
+       padding:50%;
+       background-color:white;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+div
+{
+  text-align: center;
+  width: auto;
+  height:1000px;
+}

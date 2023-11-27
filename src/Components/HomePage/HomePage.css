@@ -1,0 +1,35 @@
+/* HomePage.css */
+
+/* Background animation */
+.home-page {
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-vector/blue-abstract-background-health_66029-25.jpg?size=626&ext=jpg&ga=GA1.1.663113408.1700495494&semt=ais');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+}
+
+/* Styles for the AppBar and Toolbar */
+.AppBar {
+  background-color: black;
+  color: white;
+}
+
+/* Styles for the navigation buttons */
+.button {
+  width: 90px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  border-radius: 70px;
+  color: black;
+}
+
+/* Scrolled state for the home page */
+.home-page.scrolled {
+  background-image: url('C:\Users\ksera\Desktop\react basic\day1\src\Components\some-pills-spray-pill-bottle-needles-light-cyan-background-top-view-space-text_176474-1747.avif');
+  /* Change the background when scrolled */
+}

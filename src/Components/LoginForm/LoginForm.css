@@ -1,0 +1,33 @@
+.body
+{
+ display:flex;
+ background-image: url('C:\Users\ksera\Desktop\react basic\day1\src\Components\some-pills-spray-pill-bottle-needles-light-cyan-background-top-view-space-text_176474-1747.avif');
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ padding:10% 0 20% 0
+}
+
+.login-form
+{
+     display: block;
+     height:500px;
+     width: 400px;
+     padding-top: 10px;
+    background-image: url('https://img.freepik.com/premium-vector/blue-abstract-background-health_66029-25.jpg?size=626&ext=jpg&ga=GA1.1.663113408.1700495494&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow:0 0 50px 15px #070707;
+}
+.text
+{
+    box-shadow: 10px 10px 5px lightblue;
+    width:80%;
+    color:"black";
+    font-family:serif;
+    font-size: 70px;
+  
+}

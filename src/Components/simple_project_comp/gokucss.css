@@ -1,0 +1,33 @@
+.goku
+{
+    text-align: center;
+}
+img
+{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+button
+{
+    width:100px;
+    height: 80px;
+    border:1px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family:serif;
+    cursor:pointer;
+   box-shadow: 0 9px #999;
+    background-color: rgb(146, 139, 139);
+}
+button:hover
+{
+    background-color: rgb(165, 162, 162);
+    transition:0.3s;
+}
+button:active
+{
+    background-color: rgb(255, 145, 0);
+    box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
